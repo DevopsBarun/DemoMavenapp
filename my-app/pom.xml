@@ -72,4 +72,17 @@
       </plugins>
     </pluginManagement>
   </build>
-</project>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-37-78-releases</name>
+        <url>http://172.31.37.78:8081/artifactory/libs-release</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-37-78-snapshots</name>
+        <url>http://172.31.37.78:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
+ 
+ </project>
